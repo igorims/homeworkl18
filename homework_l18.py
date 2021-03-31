@@ -128,6 +128,7 @@ def main():
     print(f'{bcolors.HEADER}Решение 2{bcolors.ENDC}')
     testNum1 = FractionNum1(10, -2000)
     testNum2 = FractionNum1(5, '-003')
+    testNum3 = FractionNum1(-30, '000050')
     testNum1 + testNum2
     testNum1 - testNum2
     testNum1 * testNum2
