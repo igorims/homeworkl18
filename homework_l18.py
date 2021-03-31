@@ -87,7 +87,7 @@ class FractionNum1:
         print(f'{self.number} + {other.number} = {self.number + other.number}')
 
     def __sub__(self, other):
-        print(f'{self.number} - {other.number} = {(self.number - other.number):.2}')
+        print(f'{self.number} - {other.number} = {(self.number - other.number):.4}')
 
     def __mul__(self, other):
         print(f'{self.number} * {other.number} = {(self.number * other.number):.4}')
